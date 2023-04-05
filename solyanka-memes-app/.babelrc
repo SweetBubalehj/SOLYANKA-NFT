@@ -1,0 +1,17 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "styled-components",
+      {
+        "displayName": true,
+        "ssr": true,
+        "preprocess": false,
+        "minify": true,
+        "transpileTemplateLiterals": true,
+        "pure": true,
+        "disableLifecycleMethods": true
+      }
+    ]
+  ]
+}
