@@ -23,13 +23,13 @@
 ## Адрес контракта после деплоя
 
 ```
-0x8eB00763110EE19B1e60F437AEe4cA9f400E7E87 https://testnet.bscscan.com/address/0x8eB00763110EE19B1e60F437AEe4cA9f400E7E87
+0x8eB00763110EE19B1e60F437AEe4cA9f400E7E87
 ```
 
 ## Ссылка на BscScan
 
 ```
-0x8eB00763110EE19B1e60F437AEe4cA9f400E7E87 https://testnet.bscscan.com/address/0x8eB00763110EE19B1e60F437AEe4cA9f400E7E87
+https://testnet.bscscan.com/address/0x8eB00763110EE19B1e60F437AEe4cA9f400E7E87
 ```
 
 ## Установка
