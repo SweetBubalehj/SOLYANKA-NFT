@@ -10,12 +10,12 @@
 ## Тестирование смарт-контракта
 
 Тесты для данного смарт-контракты были написаны через фреймворк hardhat. Тесты были следующие:
-1. `should allow buying Windows Moment NFT` - покупка NFT Windows Moment пройдет успешно и окажется на адрессе у покупателя. ✅
-2. `should allow buying Regex Moment NFT` - покупка NFT Regex Moment пройдет успешно и окажется на адрессе у покупателя. ✅
-3. `should allow buying Gaming Moment NFT` - покупка NFT Gaming Moment пройдет успешно и окажется на адрессе у покупателя. ✅
-4. `should allow buying File Path Moment NFT` - покупка NFT File Path пройдет успешно и окажется на адрессе у покупателя. ✅
-5. `should allow buying CPU Moment NFT` - покупка NFT CPU Moment пройдет успешно и окажется на адрессе у покупателя. ✅
-6. `should not allow buying more than 10 NFTs of the same type` - покупка больше 10 NFT одного типа окажется не возможной. ✅
+1. `should allow buying Windows Moment NFT` - покупка NFT Windows Moment пройдет успешно и окажется на адресе у покупателя. ✅
+2. `should allow buying Regex Moment NFT` - покупка NFT Regex Moment пройдет успешно и окажется на адресе у покупателя. ✅
+3. `should allow buying Gaming Moment NFT` - покупка NFT Gaming Moment пройдет успешно и окажется на адресе у покупателя. ✅
+4. `should allow buying File Path Moment NFT` - покупка NFT File Path пройдет успешно и окажется на адресе у покупателя. ✅
+5. `should allow buying CPU Moment NFT` - покупка NFT CPU Moment пройдет успешно и окажется на адресе у покупателя. ✅
+6. `should not allow buying more than 10 NFTs of the same type` - покупка больше 10 NFT одного типа окажется невозможной. ✅
 7. `should withdraw contract balance` - вывод средств с контракта пройдет успешно. ✅
 8. `should return the correct token URI` - функция tokenURI() вернет верный tokenURI купленного NFT. ✅
 9. `should revert if not called by owner` - если средства с контракта пытается вывести не создатель контракта, то ничего не выйдет. ✅
