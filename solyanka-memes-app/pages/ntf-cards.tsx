@@ -113,7 +113,7 @@ const CardComponent: React.FC<CardProps> = ({
         title={title}
         description={
           editionsRemaining !== undefined
-            ? `Editions remaining: ${editionsRemaining}`
+            ? `Editions remaining: ${editionsRemaining} | Price: 0.001 BNB`
             : "Loading..."
         }
       />

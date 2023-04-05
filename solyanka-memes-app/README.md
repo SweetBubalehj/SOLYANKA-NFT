@@ -1,29 +1,39 @@
-This is a [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) project bootstrapped with [`create-rainbowkit`](https://github.com/rainbow-me/rainbowkit/tree/main/packages/create-rainbowkit).
+# Frontend для NFT memes
 
-## Getting Started
+Данный репозиторий является одним из компонентов NFT memes dApp. А именно, он отвечает за само приложение которое взаимодействует со смарт-конрактом. Приложение написано на фреймворке `NextJS` (TypeScript), конечно, используя React и его компоненты. Так же используются дополнительные библиотеки:
 
-First, run the development server:
+1. `And Design` - для красивого интерфейса.
+2. `Styled` Components - для анимации.
+3. `Babel` - для грамотной работы некоторых скриптов (помощник Styled Components).
+4. `Wagmi`, Ethers - для взаимодействия со смарт-контрактом.
+5. `RainbowKit` - для подключения различных кошельков.
 
-```bash
+## Установка
+
+1. Клонируйте репозиторий:
+
+```
+git clone https://github.com/SweetBubalehj/SOLYANKA-NFT.git
+```
+
+2. Установите зависимости
+
+```
+cd solyanka-memes-app
+npm install
+```
+
+3. Запустите проект:
+
+```
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Использование
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about this stack, take a look at the following resources:
-
-- [RainbowKit Documentation](https://rainbowkit.com) - Learn how to customize your wallet connection flow.
-- [wagmi Documentation](https://wagmi.sh) - Learn how to interact with Ethereum.
-- [Next.js Documentation](https://nextjs.org/docs) - Learn how to build a Next.js application.
-
-You can check out [the RainbowKit GitHub repository](https://github.com/rainbow-me/rainbowkit) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Свяжите с приложением ваш кошелек нажав на кнопку `Connect Wallet`.
+2. После этой операции кнопка `Buy Now` для NFT станет доступна.
+3. Выберите желаемую NFT для покупки цена за одну NFT - `0.001 BNB`.
+4. Проверьте количетсво осташихся NFT в `Editions remaining`.
+5. Если `Editions remaining` равняется нулю, вместо кнопки `Buy Now` будет `Sold Out`.
+6. Если `Editions remaining` больше нуля, и вы ее хотите купить, нажмите на кнопку `Buy Now` и подтвердите транзакцию в вашем кошельке. После подтверждения вы будете является владельцем этой NFT.
