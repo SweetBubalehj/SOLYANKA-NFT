@@ -1,6 +1,8 @@
-# Contract for NFT Collection
+# Smart contract for NFT Collection
 
-Данный репозиторий является одним из компонентов NFT memes dApp. Это смарт-контракт написанный на языке Solidity. Я использую hardhat для тестирования, деплоя, верификации, получения gas report и coverage. Gas report и coverage выглядят следующим образом:
+Данный репозиторий является одним из компонентов NFT memes dApp. Это смарт-контракт написанный на языке Solidity. Здесь используется hardhat для тестирования, деплоя, верификации, получения gas report и coverage. 
+
+## Gas report и coverage выглядят следующим образом:
 
 1. `Gas report` ![image](https://user-images.githubusercontent.com/118951514/230160517-c7b596ed-4c54-47aa-adf8-4af898107587.png)
 2. `Coverage` ![image](https://user-images.githubusercontent.com/118951514/230160296-71c0eecd-a0df-4397-bd8b-abaf1c6edcb6.png)
